@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: "Caveat";
+}
+
+.heading{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.span{
+    font-weight: 600;
+}
+
+.inputBox{
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.button{
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.to-do-items-container{
+    margin-top: 15px;
+}
+
+.items{
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkBoxInput{
+    width: 20px;
+    height: 20px;
+}
+
+.divContainer{
+    background-color: rgb(229, 238, 238);
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    border-left: 4px solid rgb(7,29,73);
+    border-radius: 8px;
+}
+
+.labelElement{
+    font-size: 22px;
+}
+
+.delIcon{
+    padding: 15px;
+}
+
+.checked{
+    text-decoration: line-through;
+}
